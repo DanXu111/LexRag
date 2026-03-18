@@ -1,0 +1,45 @@
+# ── 环境与依赖 ──
+.env
+rag_env/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+.claude/
+.venv
+
+# ── 模型缓存 ──
+.cache/
+models/
+
+# ── IDE / 编辑器 ──
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── 个人笔记与文档（不上传）──
+待做.md
+架构分析文档.md
+docs/
+# ── 占位脚本 ──
+main.py
+
+# ── 运行时生成数据 ──
+data/
+
+# ── 法律文档源文件（数据文件，非代码）──
+law/
+
+# ── Benchmark / 实验输出（运行时生成）──
+experiments/
+
+# ── 自动生成的 RAGAS 评估数据 ──
+
+eval/ragas_dataset.jsonl
+eval/ragas_results.json

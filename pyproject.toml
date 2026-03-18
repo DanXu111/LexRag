@@ -1,0 +1,38 @@
+[project]
+name = "local-pdf-chat-rag"
+version = "0.1.0"
+description = "Local PDF Chat RAG System"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=6.0",
+    "fastapi>=0.100",
+    "uvicorn>=0.30",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0",
+    "requests>=2.30",
+    "httpx>=0.27",
+    "numpy>=2.0",
+    "jieba>=0.42",
+    "faiss-cpu>=1.8",
+    "rank-bm25>=0.2",
+    "torch>=2.0",
+    "sentence-transformers>=3.0",
+    "langchain-text-splitters>=0.3",
+    "pymupdf>=1.24",
+    "pillow>=10.0",
+    "easyocr>=1.7",
+    "pdfminer.six>=20231228",
+    "pandas>=2.0",
+    "openpyxl>=3.0",
+    "python-docx>=1.0",
+    "python-pptx>=0.6",
+    "psutil>=5.9",
+    "qdrant-client>=1.0",
+    "pymilvus>=2.0",
+    "milvus-lite>=3.0",
+    "huggingface-hub>=0.20",
+    "ragas>=0.4.3",
+    "langchain-openai>=1.2.2",
+    "matplotlib>=3.10.9",
+]
